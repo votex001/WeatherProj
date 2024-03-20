@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100svh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header *{
+    font-size: 1.5rem;
+}
+header{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: #1e293b;
+}
+header img{
+    height: 5rem;
+    margin-left: 5rem;
+}
+header nav{
+    align-self: flex-end;
+    gap: 20px;
+    margin-right: 5rem;
+    margin-bottom: 20px;
+}
+nav input,nav button{
+    padding: 10px 20px;
+}
+
+.copy-links {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: end;
+}
+
+main,
+section {
+    display: flex;
+    flex: 1;
+
+}
+
+.left-bar,
+.right-bar {
+    width: 50%;
+}
+
+.left-bar {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    place-items: center;
+    text-align: center;
+}
+
+.history {
+    font-size: 3rem;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.history h1{
+    margin-bottom: 30px;
+}
+.history div{
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+.history div button{
+    align-self: center;
+    margin-left: 10px;
+    background-color: #2563eb;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    height: 20px;
+    width: 90px;
+}
+
+.history button{
+width: 70px;
+height: 20px;
+
+}
+
+#weather {
+    font-size: 3rem;
+    width: 100%;
+    height: 100%;
+    /* display: grid;
+    place-content: center; */
+}
+.weather-info{
+    display: inline-flex;
+}
+
+.weather-img {
+    width: 4rem;
+    height: 4rem;
+    filter: contrast(0);
+    -webkit-filter: contrast(0);
+    -moz-filter: contrast(0);
+    -ms-filter: contrast(0);
+    -o-filter: contrast(0);
+}
+
+
+footer {
+    color: #94a3b8;
+    background-color: #1e293b;
+    text-align: center;
+    padding: 10px;
+}
+
+
