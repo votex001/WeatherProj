@@ -47,7 +47,6 @@ function getWeather(lat, lng) {
 
 function renderWeather(data, date) {
   const weather = document.querySelector('#weather')
- 
   weather.innerHTML = `
   <div class="weather-container">
   <p>${date}</p>
